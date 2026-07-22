@@ -53,11 +53,9 @@ CREATE TABLE IF NOT EXISTS rsvps (
 -- Default Users
 -- admin: admin@studentpulse.test / password
 -- student: student@studentpulse.test / password
--- samuel: samuelkangethe825@gmail.com / !Ve*$p1tt@
 INSERT INTO users (username, email, password_hash, role) VALUES
-('samuel', 'samuelkangethe825@gmail.com', '$2y$10$KBKTWl6u.UF.XdT/NtNBZexhwb5Vqtj7fG8IM0ETlqQExm.q4gTwC', 'admin'),
-('admin', 'admin@studentpulse.test', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2uheWG/igi.', 'admin'),
-('student', 'student@studentpulse.test', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2uheWG/igi.', 'student')
+('admin', 'admin@studentpulse.test', '$2y$10$ndfvCxxWeKjPtEpaXum5QuvzviQ0u4vQgNPPXoniCLRW/223yogW6', 'admin'),
+('student', 'student@studentpulse.test', '$2y$10$ndfvCxxWeKjPtEpaXum5QuvzviQ0u4vQgNPPXoniCLRW/223yogW6', 'student')
 ON DUPLICATE KEY UPDATE password_hash=VALUES(password_hash), role=VALUES(role);
 
 -- Sample Events
