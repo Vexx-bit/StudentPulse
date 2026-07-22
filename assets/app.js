@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-time]').forEach(x=>{let t=new Date(x.dataset.time);function f(){let n=t-Date.now();if(n<=0){x.textContent='Event started';return}x.textContent=`Starts in ${Math.floor(n/864e5)}d ${Math.floor(n%864e5/36e5)}h ${Math.floor(n%36e5/6e4)}m`}f();setInterval(f,60000)});
