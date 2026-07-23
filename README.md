@@ -72,13 +72,3 @@ Open your browser and visit:
   - `/includes/`: Shared header, footer, CSRF security, and session management (`includes/core.php`, `includes/header.php`, `includes/footer.php`).
 
 ---
-
-## 👥 Group Members (Internet Programming II)
-
-| # | Name | Registration Number | Role / Task |
-|---|------|---------------------|-------------|
-| 1 | Samuel Kangethe | __________________ | Leader / Lead Dev |
-| 2 | __________________ | __________________ | Member |
-| 3 | __________________ | __________________ | Member |
-| 4 | __________________ | __________________ | Member |
-| 5 | __________________ | __________________ | Member |
